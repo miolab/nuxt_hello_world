@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <h1>{{ message }}</h1>
+    <router-link to="/price">Price Page</router-link>
   </div>
 </template>
 
