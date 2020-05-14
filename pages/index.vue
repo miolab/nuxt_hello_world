@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>{{ message }}</h1>
-    <router-link to="/price">Price Page</router-link>
+    <router-link to="/about">Page About</router-link>
   </div>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   data: function() {
     return {
-      message: 'Hello World, IM!'
+      message: 'Hello World with Nuxt.js, im!'
     }
   }
 }
